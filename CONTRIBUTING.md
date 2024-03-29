@@ -12,7 +12,7 @@ Baseline that feature or bug fix branch on `dev` (the latest development
 state).
 
     $ git checkout dev
-    $ git checkout --branch mynewfeature
+    $ git checkout -b mynewfeature
     $ [do your coding]
     $ git commit -am 'my message'
     $ git push
